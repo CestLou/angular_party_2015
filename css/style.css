@@ -1,0 +1,34 @@
+.btn-animated {
+	width: 200px;
+	height: 35px;
+	transition: font-size 1s, width 1s ease, background-color 3s, height 1s;
+}
+
+.btn-animated:hover {
+	width: 250px;
+	height: 50px;
+	background-color: purple;
+	font-size: 25px
+}
+
+.todo-anim {
+
+}
+
+.todo-anim.ng-enter {
+	-webkit-animation-name: zoomIn;
+	animation-name: zoomIn;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.todo-anim.ng-leave {
+	-webkit-animation-name: zoomOut;
+	animation-name: zoomOut;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
