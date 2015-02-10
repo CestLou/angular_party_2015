@@ -12,6 +12,6 @@ angular.module('like-button', [])
 		}
 	}],
 	replace: true,
-	template: '<button class="btn btn-danger" ng-click="increaseCount()" label=""> {{value}} &#10790; </button>'
+	template: '<button class="btn btn-success" ng-click="increaseCount()" label="">  <span class="glyphicon glyphicon-thumbs-up"></span> {{value}} </button>'
 	}
 })
